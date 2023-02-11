@@ -1,0 +1,8 @@
+2       // Number of state
+01      // Alphabet
+A       // Initial state
+A       // Final state
+A0B     // From state A with input 0 next state is B
+A0A     // From state A with input 0 next state is A
+A1B     // From state A with input 1 next state is B
+B1A     // From state B with input 1 next state is A

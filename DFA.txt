@@ -1,0 +1,10 @@
+3		//Number of states
+01		// 2 symbols in the alphabet
+A		// Initial state(s)
+A AB 		// Final state(s)
+A 0 AB		// From state A with input 0 next state is AB
+A 1 B		// From state A with input 1 next state is B
+AB 0 AB		// From state AB with input 0 next state is AB
+AB 1 AB		// From state AB with input 1 next state is AB
+B 0 _		// From state B with input 0 next state is _
+B 1 A		// From state B with input 1 next state is A
